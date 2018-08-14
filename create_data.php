@@ -6,6 +6,7 @@
 	$prodi=$_POST['prodi'];
 	$kelas=$_POST['kelas'];
 
+
 	$insert = "INSERT INTO tb_mahasiswa(npm,nama,prodi,kelas) VALUES ('$npm','$nama','$prodi','$kelas')";
 	$exeinsert = mysqli_query($koneksi,$insert);
 
